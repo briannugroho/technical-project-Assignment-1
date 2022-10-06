@@ -328,11 +328,14 @@ a{
   }
 }
 
-@media(max-width:550px){
+@media(max-width:426px) and (min-width:200px){
 
   .blog-box{
       margin: 20px 10px;
       width: 100%;
+  }
+  .blog-container{
+    flex-wrap: wrap;
   }
   #blog{
       padding:20px;
