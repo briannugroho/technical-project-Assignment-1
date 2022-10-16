@@ -321,14 +321,23 @@ a{
   .blog-box{
       width: 300px;
   }
-} 
-@media(max-width:1100px){
+}
+@media(max-width:1100) {
   .blog-box{
-      width:70%;
+    margin: 20px 10px;
+    width: 70%;
+  }
+}
+@media(max-width:800px){
+  .blog-box{
+      width:100%;
+  }
+  .blog-container{
+    flex-wrap: wrap;
   }
 }
 
-@media(max-width:426px) and (min-width:200px){
+@media(max-width:425px) and (min-width:200px){
 
   .blog-box{
       margin: 20px 10px;
