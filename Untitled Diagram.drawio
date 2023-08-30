@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T16:40:20.346Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tVSS1gz-IvuJIuIXPyEH" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T16:45:45.050Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="dJWKgYcwyeyTrULsUFqv" version="21.7.1" type="github">
   <diagram name="Page-1" id="zEenxiM1ftg-XQKxr-S7">
-    <mxGraphModel dx="2707" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1741" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,32 +177,28 @@
         <mxCell id="kVnSp6W64oNAchR3ILVk-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kVnSp6W64oNAchR3ILVk-15" target="kVnSp6W64oNAchR3ILVk-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kVnSp6W64oNAchR3ILVk-15" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Jika kelembapan kurang dari 60 dan suhu baju kurang dari 32&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="kVnSp6W64oNAchR3ILVk-15" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Kelembapan &amp;gt;=50 &amp;amp;&amp;amp; kelembapan &amp;lt;=60 &amp;amp;&amp;amp; suhu &amp;lt;= 32&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1150" y="425" width="190" height="165" as="geometry" />
         </mxCell>
         <mxCell id="kVnSp6W64oNAchR3ILVk-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kVnSp6W64oNAchR3ILVk-19" target="kVnSp6W64oNAchR3ILVk-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kVnSp6W64oNAchR3ILVk-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kVnSp6W64oNAchR3ILVk-19" target="kVnSp6W64oNAchR3ILVk-32" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="kVnSp6W64oNAchR3ILVk-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kVnSp6W64oNAchR3ILVk-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1247.56" y="832.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="kVnSp6W64oNAchR3ILVk-19" value="Jika kelembapan lebih dari 60 dan suhu baju kurang dari 32" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="kVnSp6W64oNAchR3ILVk-19" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Kelembapan &amp;gt;=50 &amp;amp;&amp;amp; kelembapan &amp;lt;=60 &amp;amp;&amp;amp; suhu &amp;gt;= 32&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1152.54" y="615" width="190" height="185" as="geometry" />
         </mxCell>
         <mxCell id="kVnSp6W64oNAchR3ILVk-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Basah&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="1390" y="487.5" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kVnSp6W64oNAchR3ILVk-30" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Basah&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+        <mxCell id="kVnSp6W64oNAchR3ILVk-30" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Kering&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="1390" y="687.5" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="kVnSp6W64oNAchR3ILVk-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kVnSp6W64oNAchR3ILVk-32" target="kVnSp6W64oNAchR3ILVk-62" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kVnSp6W64oNAchR3ILVk-32" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Kering&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="832.5" width="115.07" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="kVnSp6W64oNAchR3ILVk-62" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;C&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1207.535" y="905" width="80" height="80" as="geometry" />
+          <mxGeometry x="1205.005" y="832.5" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kVnSp6W64oNAchR3ILVk-64" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;C&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="474.3750000000001" y="1180" width="80" height="80" as="geometry" />
